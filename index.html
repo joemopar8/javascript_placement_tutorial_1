@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>JavaScript Placement</title>
+
+    <!-- Example_3: JavaScript in the 'head', uses a 'function' and must be 'called'. See below!! -->
+    <!-- <script>
+      function myFunction() {
+        document.getElementById("demo").innerHTML = "Paragraph Changed!";
+      }
+    </script> -->
+  </head>
+
+  <body>
+    <br />
+
+    <center>
+      <h1>Hello World!</h1>
+
+      <!-- Used for all three examples -->
+      <p id="demo">Waiting...</p>
+
+      <!-- <br /> -->
+
+      <!-- Example_1: JavaScript in the body  -->
+      <!-- <button
+        type="button"
+        onclick="document.getElementById('demo').innerHTML = Date()"
+      >
+        Click me to display Date and Time
+      </button> -->
+
+      <!-- or -->
+
+      <!-- <script>
+        document.getElementById("demo").innerHTML = "Happy Holidays!";
+      </script> -->
+
+      <!-- Example_2: JavaScript in another 'file': myscript.js, ('Waiting' and 'Hello' are overwritten!) -->
+      <script src="myscript.js">
+        Hello
+      </script>
+
+      <!-- Example_3:The function in the 'head' is 'called' with this line of code: -->
+      <!-- <button type="button" onclick="myFunction()">Click it!</button> -->
+    </center>
+  </body>
+</html>
