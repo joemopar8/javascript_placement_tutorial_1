@@ -1,1 +1,1 @@
-# javascript_placement
+# Javascript Placement Tutorial
